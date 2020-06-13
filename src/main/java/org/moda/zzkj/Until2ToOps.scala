@@ -1,5 +1,12 @@
-package org.moda
+package org.moda.zzkj
 
+/**
+  * @author MODA-Master
+  * @Title: Until2ToOps
+  * @ProjectName scala-study
+  * @Description: TODO
+  * @date 20-6-13 下午9:08
+  */
 object Until2ToOps {
   def main(args: Array[String]): Unit = {
     // 1,2

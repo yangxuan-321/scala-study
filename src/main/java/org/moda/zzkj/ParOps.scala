@@ -1,4 +1,4 @@
-package org.moda
+package org.moda.zzkj
 
 /**
  * 插入par做并行计算

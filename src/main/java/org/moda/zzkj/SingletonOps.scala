@@ -24,6 +24,7 @@ object Config{
     "prod" -> new Config("application-prod.yml")
   )
 
+  // getOrElse 如果 存在 key对应的值 就从 map取出来 否则 就 实用默认值
   def getInstance(profile :String): Config = confs.getOrElse(profile, defaultConf)
 
   def apply(profile: String): Config = getInstance(profile)

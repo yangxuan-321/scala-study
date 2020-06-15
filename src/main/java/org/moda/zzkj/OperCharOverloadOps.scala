@@ -1,4 +1,4 @@
-package org.moda
+package org.moda.zzkj
 
 class Dog(val name: String, var sex: String){
 class Dog(val name: String, val sex: String){

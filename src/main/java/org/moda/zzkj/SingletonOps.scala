@@ -15,21 +15,26 @@ class Config private(val profile: String){
 }
 
 object Config{
+
+  private val defaultConf = new Config("application-dev.yml")
+
   private val confs = mutable.Map(
     "dev" -> new Config("application-dev.yml"),
     "test" -> new Config("application-test.yml"),
     "prod" -> new Config("application-prod.yml")
   )
 
-  def getInstance(profile :String): Option[Config] = confs.get(profile)
+  def getInstance(profile :String): Config = confs.get(profile).getOrElse(profile, defaultConf)
+
+  def apply(profile: String): Config = getInstance(profile)
 }
 
 object SingletonOps {
   def main(args: Array[String]): Unit = {
-    val conf = Config.getInstance("dev").get
+    val conf = Config.getInstance("dev")
     println(conf)
 
-    val conf1 = Config.getInstance("test").get
+    val conf1 = Config.getInstance("test")
     println(conf1)
   }
 }

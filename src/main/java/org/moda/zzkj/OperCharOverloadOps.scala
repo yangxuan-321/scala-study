@@ -1,6 +1,7 @@
 package org.moda.zzkj
 
-class Dog(val name: String, var sex: String){
+import scala.beans.BeanProperty
+
 class Dog(val name: String, val sex: String){
   @BeanProperty
   var test: String = _

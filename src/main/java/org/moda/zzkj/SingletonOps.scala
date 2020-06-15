@@ -24,7 +24,7 @@ object Config{
     "prod" -> new Config("application-prod.yml")
   )
 
-  def getInstance(profile :String): Config = confs.get(profile).getOrElse(profile, defaultConf)
+  def getInstance(profile :String): Config = confs.getOrElse(profile, defaultConf)
 
   def apply(profile: String): Config = getInstance(profile)
 }
@@ -36,5 +36,11 @@ object SingletonOps {
 
     val conf1 = Config.getInstance("test")
     println(conf1)
+
+    val conf2 = Config("prod")
+    println(conf2)
+
+    val conf3 = Config("123")
+    println(conf3)
   }
 }

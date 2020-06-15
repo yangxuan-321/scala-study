@@ -7,7 +7,7 @@ import scala.beans.BeanProperty
   * @author MODA-Master
   * @Title: TypeClassOps
   * @ProjectName scala-study
-  * @Description: TODO
+  * @Description: TODO 类型别名
   * @date 20-6-13 下午10:36
   */
 class ModaMaster20200613{

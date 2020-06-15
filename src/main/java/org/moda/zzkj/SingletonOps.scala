@@ -24,6 +24,7 @@ object Config{
     "prod" -> new Config("application-prod.yml")
   )
 
+  // 通过 scalac 和 javap 可以看出来 getInstance和apply 方法 都是 编译成 static方法的
   // getOrElse 如果 存在 key对应的值 就从 map取出来 否则 就 实用默认值
   def getInstance(profile :String): Config = confs.getOrElse(profile, defaultConf)
 

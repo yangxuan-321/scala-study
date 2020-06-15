@@ -1,5 +1,12 @@
-package org.moda;
+package org.moda.zzkj
 
+/**
+  * @author MODA-Master
+  * @Title: TupleOps
+  * @ProjectName scala-study
+  * @Description: TODO
+  * @date 20-6-13 下午9:08
+  */
 object TupleOps {
 
   def swap(a: Int, b: Int): (Int, Int) = {

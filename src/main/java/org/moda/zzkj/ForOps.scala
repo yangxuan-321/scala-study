@@ -1,5 +1,12 @@
-package org.moda
+package org.moda.zzkj
 
+/**
+  * @author MODA-Master
+  * @Title: ForOps
+  * @ProjectName scala-study
+  * @Description: TODO
+  * @date 20-6-13 下午9:08
+  */
 object ForOps {
   def main(args: Array[String]): Unit = {
     for (i <- 1 to 3){

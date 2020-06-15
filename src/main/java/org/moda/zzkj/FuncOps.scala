@@ -1,4 +1,4 @@
-package org.moda;
+package org.moda.zzkj
 
 class Cat {
   def eat(food: String): Unit ={

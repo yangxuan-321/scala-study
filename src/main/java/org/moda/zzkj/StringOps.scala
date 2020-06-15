@@ -1,5 +1,12 @@
-package org.moda
+package org.moda.zzkj
 
+/**
+  * @author MODA-Master
+  * @Title: StringOps
+  * @ProjectName scala-study
+  * @Description: TODO
+  * @date 20-6-13 下午9:08
+  */
 object StringOps {
   def main(args: Array[String]): Unit = {
     val price = 2.512

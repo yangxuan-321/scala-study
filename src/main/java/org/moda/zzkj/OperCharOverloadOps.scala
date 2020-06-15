@@ -1,6 +1,10 @@
 package org.moda
 
 class Dog(val name: String, var sex: String){
+class Dog(val name: String, val sex: String){
+  @BeanProperty
+  var test: String = _
+
   def +(dog: Dog): Dog ={
    new Dog(s"${name} <-> ${dog.name}", s"${sex} <-> ${dog.sex}")
   }
@@ -23,5 +27,8 @@ object OperCharOverloadOps {
     // 不写 new 是因为 其默认 调用了 object Dog 的apply方法
     val baby1 = Dog("hello", "boy") + Dog("world", "girl") + Dog("!", "NONE")
     println(baby1)
+    println(baby.name)
+    println(baby.test)
+    println(baby.getTest)
   }
 }

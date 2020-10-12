@@ -6,7 +6,7 @@ object FlumeSourceEnum extends Enumeration{
   val Avro, Thrift, Exec, JMS, Spooling_Directory = Value
 
   // 此处函数 返回值 还需要 考证
-  def exec(sourceType: FlumeSourceEnum): () => Unit = {
+  def exec(sourceType: FlumeSourceEnum)= {
     sourceType match {
       case Avro => def fromAvaro(): Unit = println("from Avaro")
       case Thrift => def fromThrift(): Unit = println("from Thrift")

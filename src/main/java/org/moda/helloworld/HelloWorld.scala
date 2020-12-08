@@ -10,5 +10,8 @@ package org.moda.helloworld
 object HelloWorld {
   def main(args: Array[String]): Unit = {
     printf("hello world!")
+    (1 to 10).map(c => (c, c)).groupBy(_._1).map {
+      case (key, v) =>
+    }
   }
 }

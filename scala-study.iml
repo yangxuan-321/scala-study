@@ -27,5 +27,6 @@
     <orderEntry type="library" name="Maven: io.aeron:aeron-driver:1.1.0" level="project" />
     <orderEntry type="library" name="Maven: io.aeron:aeron-client:1.1.0" level="project" />
     <orderEntry type="library" name="Maven: org.agrona:agrona:0.9.2" level="project" />
+    <orderEntry type="library" name="xuggle-xuggler-5.4" level="project" />
   </component>
 </module>

@@ -45,7 +45,7 @@ object List {
 //    }
 
   // 柯理化
-  def dropWhile1[A](lists: List[A])(f: A => Boolean): List[A] =
+  def  dropWhile1[A](lists: List[A])(f: A => Boolean): List[A] =
     lists match {
       case Nil => Nil
       case Nodes(head, nodes) => if (f(head)) dropWhile(nodes, f) else Nodes(head, dropWhile(nodes, f))

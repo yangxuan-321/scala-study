@@ -1,5 +1,7 @@
 package org.moda.scala基础
 
+import java.io.File
+
 import scala.io.Source
 
 /**
@@ -12,19 +14,21 @@ import scala.io.Source
 object FileOps {
   def main(args: Array[String]): Unit = {
     // 文件读取
-    val file = Source.fromFile(FileOps.getClass.getResource("/file1.txt").getPath)
-    val netFile = Source.fromURL("http://www.shicimingju.com/chaxun/list/2973.html")
-
-
-    // file.getLines 就是 一个 迭代器
-    for (line <- file.getLines){
-      println(line)
-    }
-
-    println
-
-    for (line <- netFile.getLines()){
-      println(line)
-    }
+//    val file = Source.fromFile(FileOps.getClass.getResource("/file1.txt").getPath)
+//    val netFile = Source.fromURL("http://www.shicimingju.com/chaxun/list/2973.html")
+//
+//
+//    // file.getLines 就是 一个 迭代器
+//    for (line <- file.getLines){
+//      println(line)
+//    }
+//
+//    println
+//
+//    for (line <- netFile.getLines()){
+//      println(line)
+//    }
+    val c = Source.fromFile(new File("/home/yangxuan/Desktop/code_bak/bad.txt").getPath).getLines().mkString(" ")
+    println(c)
   }
 }

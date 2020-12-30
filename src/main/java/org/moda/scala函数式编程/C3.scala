@@ -66,6 +66,9 @@ object List {
       case Nodes(x, xs) => foldLeft(xs, f(x, z))(f)
     }
 
+  def foldRight1[A, B](lists: List[A], z: B)(f: (A, B) => B): B =
+    foldLeft(lists, (b:B) => b)((e, r) => b => r(f(e, b)))(z)
+
   def apply[A](ds: A*): List[A] =
     if (ds.isEmpty) Nil
     else Nodes(ds.head, apply(ds.tail: _*))
@@ -77,6 +80,9 @@ object C3 {
 //  def test1(is: Int*) = {
 //    println(is)
 //  }
+
+  def a[String](b: String) = b
+  def c = a((i: String) => i)
 
   def main(args: Array[String]): Unit = {
     val value = List(1, 2, 3, 4, 5, 6, 7, 8, 2)

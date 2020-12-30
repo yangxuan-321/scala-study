@@ -75,11 +75,11 @@ object C6_Common {
   def unit[S, A](a: A): State[S, A] =
     s => (a, s)
 
-  def map[S, A, B](as: State[S, A])(f: A => B): State[S, B] =
-    bs => {
-      val c: (A, S) = as(bs)
-      (f(c._1), c._2)
-    }
+//  def map[S, A, B](as: State[S, A])(f: A => B): State[S, B] =
+//    bs => {
+//      val c: (A, S) = as(bs)
+//      (f(c._1), c._2)
+//    }
 
   def map2[S, A, B, C](as: State[S, A], bs: State[S, B])(f: (A, B) => C): State[S, C] =
     (cs: S) => {

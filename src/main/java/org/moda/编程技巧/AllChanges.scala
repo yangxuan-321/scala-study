@@ -1,37 +1,61 @@
 package org.moda.编程技巧
 
+import scala.collection.immutable.Queue
+import scala.collection.mutable
+import scala.collection.mutable.ListBuffer
 import scala.util.Random
 
-// 全排列
+trait CellLine[+A]
+
+// 排列 组合
 object AllChanges {
-  val random = new Random()
-  // chose
-  // 返回 被选中的对象 和 剩下的盒子
-  def choseOne[T](box: Array[T]): (T, Array[T]) = {
-    // val one = random.nextInt(box.length)
-    (box(0), box.drop(1))
-  }
-
-  def uint[T](a: Int, box: Array[T]): Array[Object] = {
-    val choseA = (1 to a).foldLeft((Array.empty[Object], box))((r, e) => {
-      val (one1, box1) = choseOne(r._2)
-      (r._1 :+ one1, box1)
-    })
-    choseA._1
-  }
-
   // C(3, box) 从 box 里面 不放回 的 选 3 个球 所有组合
-  def C[T](a: Int, box: Array[T]): List[Array[T]] = {
-    if (a > box.length) List.empty[Array[T]]
+  def cx(a: Int, box: Array[Int]): List[Array[Int]] = {
+    val q = mutable.Queue((0 to box.length - 1).map(c => (1, c, Array.empty[Int])): _*)
+    val res = ListBuffer.empty[Array[Int]]
+    if (a > box.length) res.toList
     else {
-      while (true) {
-        uint(a, box)
+      while (q.nonEmpty) {
+        val e = q.dequeue
+        if (e._1 == a) {
+          res += (e._3 :+ e._2)
+        } else {
+          val c = (e._2 + 1 to box.length - 1).map(cc => (e._1 + 1, cc, e._3 :+ e._2))
+          q.enqueue(c: _*)
+        }
       }
+      res.toList
     }
-    List.empty[Array[T]]
+  }
+
+  def cx1(a: Int, box: Array[Int]): List[Array[Int]] = {
+    val q = Queue((0 to box.length - 1).map(c => (1, c, Array.empty[Int])): _*)
+    val res = List.empty[Array[Int]]
+    Stream.continually(1).foldLeft((false, q, res))((r, e) => {
+      if (q.isEmpty) (true, r._2, r._3)
+      else {
+        val qe = q.dequeue
+        val q1 = qe._2
+        val e1 = qe._1
+        if (e1._1 == a) {
+          val resNew = (e1._3 :+ e1._2) +: res
+          (false, r._2, resNew)
+        } else {
+          val c = (e1._2 + 1 to box.length - 1).map(cc => (e1._1 + 1, cc, e1._3 :+ e1._2))
+          val qNew  = q1.enqueue(c)
+          (false, qNew, r._3)
+        }
+      }
+    })
   }
 
   def main(args: Array[String]): Unit = {
-    C(3, Array(1, 2, 3, 4, 5, 6))
+    val box = Array(0, 1, 2, 3, 4, 5)
+    // cx(3, box).map(c => println(c.mkString(",")))
+    val qq = Queue(1, 2, 3)
+    val qq1 = qq.enqueue(List(4, 5))
+    val qq2 = qq1.enqueue(6, 7)
+    val qq3 = qq2.dequeue
+    println(qq3)
   }
 }

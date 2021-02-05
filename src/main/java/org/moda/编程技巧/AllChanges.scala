@@ -21,7 +21,7 @@ object AllChanges {
           res += (e._3 :+ e._2)
         } else {
           val c = (e._2 + 1 to box.length - 1).map(cc => (e._1 + 1, cc, e._3 :+ e._2))
-          q.enqueue(c: _*)
+          q.enqueueAll(c)
         }
       }
       res.toList
@@ -49,9 +49,9 @@ object AllChanges {
 
   def main(args: Array[String]): Unit = {
     val box = Array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12) //, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38)
-    // cx(3, box).map(c => println(c.mkString(",")))
+     cx(3, box).map(c => println(c.mkString(",")))
     // println(cx(5, box).last.mkString(","))
-    println(cx(5, box).size)
+//    println(cx(5, box).size)
 //    val qq = Queue(1, 2, 3)
 //    val qq1 = qq.enqueue(List(4, 5))
 //    val qq2 = qq1.enqueue(6, 7)

@@ -55,11 +55,13 @@ object Dp {
       }.min // 求取最小值
 
       f = f.updated(x, xMin) // 更新数组值
+      println(xMin)
       xMin != Integer.MAX_VALUE
     }
 
-    (1 to coinx.length).map(minFx)
-    f.map(println)
+
+    (1 to f.length-1).map(minFx)
+    // f.map(println)
     if (f.last != Integer.MAX_VALUE) Right(f.last) else Left("拼不出27")
   }
 

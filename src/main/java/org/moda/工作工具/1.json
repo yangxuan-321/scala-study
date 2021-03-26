@@ -1,0 +1,2282 @@
+[
+  {
+    "materialUuid":"ee05f923-2bca-4dd3-9ddb-d973ce062705",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900793,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/c716a0cb79e6bc8602e4cba73422775a",
+        "signature":"0726e24bea559a99a1c88333699253c9",
+        "imageId":"",
+        "name":"1280-720- (12).jpg",
+        "bucket":"dia-pro",
+        "object":"c716a0cb79e6bc8602e4cba73422775a"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"e98ec15c-dcde-42ca-a4b8-f222319cda94",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900792,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/afef01e747db87324f0deb57df40b952",
+        "signature":"61cf36e62262d160053abe0d14f51807",
+        "imageId":"",
+        "name":"1280-720- (14).jpg",
+        "bucket":"dia-pro",
+        "object":"afef01e747db87324f0deb57df40b952"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"19b54c6a-6562-449b-b13a-930b1c794380",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900791,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/301be846b93092cac91172659ee03a0e",
+        "signature":"0a4f488beb527e87456277ecbf64a8ea",
+        "imageId":"",
+        "name":"1280-720- (18).jpg",
+        "bucket":"dia-pro",
+        "object":"301be846b93092cac91172659ee03a0e"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"c2e288ac-3318-45db-a204-d33b3bb83a06",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900790,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/4e9341cdbba46e637872097f4ccd9c59",
+        "signature":"9f17b045c80227cdd3ff38ed8097aa14",
+        "imageId":"",
+        "name":"1280-720- (13).jpg",
+        "bucket":"dia-pro",
+        "object":"4e9341cdbba46e637872097f4ccd9c59"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"c3230b77-522a-4b0a-a944-7ca01e7d4e5f",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900788,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/4db8e491d23cbd4c67e8edc1d9f57bb7",
+        "signature":"c4eebd56f5b618717686274e8338bc35",
+        "imageId":"",
+        "name":"1280-720- (3).jpg",
+        "bucket":"dia-pro",
+        "object":"4db8e491d23cbd4c67e8edc1d9f57bb7"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"26762dce-8515-45c0-a042-69df44c4ff85",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900786,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/f8cfe33302d00fe52a993765da248100",
+        "signature":"7b37b21ef15f3db64882e2aa9c429475",
+        "imageId":"",
+        "name":"1280-720- (20).jpg",
+        "bucket":"dia-pro",
+        "object":"f8cfe33302d00fe52a993765da248100"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"2e86eeef-6ca1-40fd-83e6-68c4ed858a3c",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900785,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/b7d52d695d4515776db1a0c649358e8d",
+        "signature":"1b39fb0c24d98b061755490b17a5eab1",
+        "imageId":"",
+        "name":"1280-720- (7).jpg",
+        "bucket":"dia-pro",
+        "object":"b7d52d695d4515776db1a0c649358e8d"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"cf3a23c9-bbab-4dca-a028-0d44402fca47",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900784,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/2d6a5f234d94fe3d1c81593536a18295",
+        "signature":"8b418871e94934b201871b869f57ba57",
+        "imageId":"",
+        "name":"1280-720- (8).jpg",
+        "bucket":"dia-pro",
+        "object":"2d6a5f234d94fe3d1c81593536a18295"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"20edc9e4-2712-4c83-957b-abcf4822d4d8",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900820,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/c82b132cf9a5d0a70150084aef82a3a0",
+        "signature":"e68a618432a1672dd02b0fabb0c7d841",
+        "imageId":"",
+        "name":"1280-720- (9).jpg",
+        "bucket":"dia-pro",
+        "object":"c82b132cf9a5d0a70150084aef82a3a0"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"18955ef9-79ae-4e9d-aaa8-bc6fdd1455c5",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900819,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/89c6b45d1591ad138f16f8bb4993a4b1",
+        "signature":"e6954f50a115b8eb1b40e0243a1a11b9",
+        "imageId":"",
+        "name":"1280-720- (1).jpg",
+        "bucket":"dia-pro",
+        "object":"89c6b45d1591ad138f16f8bb4993a4b1"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"f962d774-1831-4055-9a7d-81605978a74e",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900817,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/bea10972247232284911003e6ed823ae",
+        "signature":"6e7936470b1d4529cacb18d15bc90e20",
+        "imageId":"",
+        "name":"1280-720- (17).jpg",
+        "bucket":"dia-pro",
+        "object":"bea10972247232284911003e6ed823ae"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"7b7c3504-e56f-4952-9b2c-6ecc97ee872f",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900816,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/8bf17a5f3989df62761e0bc03828f221",
+        "signature":"83e5f0ae759ed0fcd30ec21b8f67ef05",
+        "imageId":"",
+        "name":"1280-720- (15).jpg",
+        "bucket":"dia-pro",
+        "object":"8bf17a5f3989df62761e0bc03828f221"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"a472c78c-61f3-4623-bdd1-b372dee5b53c",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900815,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/f1d4db7a6e41755c6af59825d0c8856f",
+        "signature":"9b4e42098c882a6a9aa66d1cbbb754a0",
+        "imageId":"",
+        "name":"1280-720- (6).jpg",
+        "bucket":"dia-pro",
+        "object":"f1d4db7a6e41755c6af59825d0c8856f"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"d4c0615a-1260-4c63-8610-bc9bdb00c1b7",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900812,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/3cf6906122588329fc067a6458559ef6",
+        "signature":"320b50afd0319974d0f38d7b10f550ed",
+        "imageId":"",
+        "name":"1280-720- (10).jpg",
+        "bucket":"dia-pro",
+        "object":"3cf6906122588329fc067a6458559ef6"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"58aa1333-e8b2-403d-9a9a-ac362ce92894",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900811,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/cd6750231abaf96a6fdbf01bed40c415",
+        "signature":"178d30407ad4ee6bfda84492bbebbab7",
+        "imageId":"",
+        "name":"1280-720- (2).jpg",
+        "bucket":"dia-pro",
+        "object":"cd6750231abaf96a6fdbf01bed40c415"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"9990374d-ff02-4351-a3e6-7b74edf46b6d",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900807,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/01f090be797a807917bace918eb25cf6",
+        "signature":"44a9048c01016e2f00d2f375c661b31c",
+        "imageId":"",
+        "name":"1280-720- (19).jpg",
+        "bucket":"dia-pro",
+        "object":"01f090be797a807917bace918eb25cf6"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"4929c2f0-aea0-4d6e-a4ce-b82f4a155aec",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900802,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/cc0ef36dd67e260d47b8c7594700a7cb",
+        "signature":"0c7ba3f4e331bffe6ecc4592b9252505",
+        "imageId":"",
+        "name":"1280-720- (11).jpg",
+        "bucket":"dia-pro",
+        "object":"cc0ef36dd67e260d47b8c7594700a7cb"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"53e0c807-c404-4f36-b6b6-032e62ab72fa",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900801,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/7199c720225e4717fe108bd157e51b39",
+        "signature":"e9f4f835048d8b894e4a5476b97d8242",
+        "imageId":"",
+        "name":"1280-720- (16).jpg",
+        "bucket":"dia-pro",
+        "object":"7199c720225e4717fe108bd157e51b39"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"50f4336a-e771-4ea2-b698-b3325d9f0044",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900797,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/f07adaab8ba1c839fc1318667af1785d",
+        "signature":"ed74c243b607c0c84195807a3ff1ce4d",
+        "imageId":"",
+        "name":"1280-720- (4).jpg",
+        "bucket":"dia-pro",
+        "object":"f07adaab8ba1c839fc1318667af1785d"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"20c0fc14-d517-42b9-a2b3-4fe0c24f093b",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900795,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/85f2206901e697f79feb717546f53af6",
+        "signature":"3c6288c2c7a2200b4364ccd1f163e6a6",
+        "imageId":"",
+        "name":"1280-720- (5).jpg",
+        "bucket":"dia-pro",
+        "object":"85f2206901e697f79feb717546f53af6"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"b6890238-0be7-4fd6-aa31-6f819287179e",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE_VERTICAL":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900818,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/a5b3b3e2b99c55911644033a129b6c91",
+        "signature":"4c51fe2064ece57609f233a7c9ebc312",
+        "imageId":"",
+        "name":"1080-1920 (2).jpg",
+        "bucket":"dia-pro",
+        "object":"a5b3b3e2b99c55911644033a129b6c91"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"e618a526-d85c-41df-8a83-55f17c21df62",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE_VERTICAL":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900814,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/2ebf2f97966f49f3bfaff5fcd91fb7d5",
+        "signature":"7cbd8668b8ce2185aacab35c9bc73918",
+        "imageId":"",
+        "name":"1080-1920 (13).jpg",
+        "bucket":"dia-pro",
+        "object":"2ebf2f97966f49f3bfaff5fcd91fb7d5"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"71d8b18a-58af-422e-b081-8ccfa1bf0591",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE_VERTICAL":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900813,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/9ec872a2de3b547012110f581a83a0cc",
+        "signature":"e4beeb5ee43f07164d8c46eeef94f93e",
+        "imageId":"",
+        "name":"1080-1920 (20).jpg",
+        "bucket":"dia-pro",
+        "object":"9ec872a2de3b547012110f581a83a0cc"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"cc95fcb3-64f1-4fa1-98e7-46282f07ffc5",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE_VERTICAL":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900810,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/147998dfec38d7e4a69b02170f2a80e9",
+        "signature":"a39207dc952e3743921ebb40465f84fe",
+        "imageId":"",
+        "name":"1080-1920 (15).jpg",
+        "bucket":"dia-pro",
+        "object":"147998dfec38d7e4a69b02170f2a80e9"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"157a25d1-1fd1-4739-aba8-ec3011ff69ad",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE_VERTICAL":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900809,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/d23e1656fc0a3b336d0771c668dee40b",
+        "signature":"40eb4e7df913c1258efa3078dda65a06",
+        "imageId":"",
+        "name":"1080-1920 (8).jpg",
+        "bucket":"dia-pro",
+        "object":"d23e1656fc0a3b336d0771c668dee40b"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"59c14634-5481-41b3-9c5a-2108c9135053",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE_VERTICAL":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900808,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/4e775ba6ab5cd918c8235da74abc233b",
+        "signature":"b0a519f053b064526baf2ac1dcd09b35",
+        "imageId":"",
+        "name":"1080-1920 (3).jpg",
+        "bucket":"dia-pro",
+        "object":"4e775ba6ab5cd918c8235da74abc233b"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"d643ff0a-c775-43ff-b366-ae0b8177998b",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE_VERTICAL":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900806,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/ed7954b727ee476041e1047f6e6f037e",
+        "signature":"bb56a62907c7924fb39f6646ea52b0fb",
+        "imageId":"",
+        "name":"1080-1920 (10).jpg",
+        "bucket":"dia-pro",
+        "object":"ed7954b727ee476041e1047f6e6f037e"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"369f33ad-4328-410d-b592-5b3f2749f5d4",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE_VERTICAL":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900805,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/4772ed60dab9d1c963287cbab523e309",
+        "signature":"55eb4d910170a07ed7b945da92965cc4",
+        "imageId":"",
+        "name":"1080-1920 (17).jpg",
+        "bucket":"dia-pro",
+        "object":"4772ed60dab9d1c963287cbab523e309"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"a154d776-324b-4cac-882d-c4c046a7d8f7",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE_VERTICAL":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900804,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/6fe617b7ee42a9f5ff313f3bb0c209c3",
+        "signature":"4453e0f7b87fbe32eb0b08bb625add4b",
+        "imageId":"",
+        "name":"1080-1920 (1).jpg",
+        "bucket":"dia-pro",
+        "object":"6fe617b7ee42a9f5ff313f3bb0c209c3"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"a4e8fde5-e689-4168-a151-531cceb63e46",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE_VERTICAL":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900803,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/68bfd961b63c29a2dbe2cb699e1f7809",
+        "signature":"21f1063350a800910a1c573d4912067e",
+        "imageId":"",
+        "name":"1080-1920 (14).jpg",
+        "bucket":"dia-pro",
+        "object":"68bfd961b63c29a2dbe2cb699e1f7809"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"baaf09fe-6f2f-4dc7-aa02-00d904c0e5fc",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE_VERTICAL":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900800,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/7bbeabb62198404f9b10c6c18450a68c",
+        "signature":"23d2a2410e36491b792c3bde6c688b4d",
+        "imageId":"",
+        "name":"1080-1920 (7).jpg",
+        "bucket":"dia-pro",
+        "object":"7bbeabb62198404f9b10c6c18450a68c"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"ba9073dc-9431-4b23-96fa-97d3d440d929",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE_VERTICAL":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900799,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/32e31ba147a9f5a4232ad5ff9869efeb",
+        "signature":"a64c922ce5578f61e3c280d3c0ea45a4",
+        "imageId":"",
+        "name":"1080-1920 (4).jpg",
+        "bucket":"dia-pro",
+        "object":"32e31ba147a9f5a4232ad5ff9869efeb"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"08678d43-1ae7-4e04-bc03-73ca85fbbb81",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE_VERTICAL":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900798,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/8a31fec63f28ce235a66cb23e0329fe4",
+        "signature":"790da26f86df465e1d94885d6bb7b6cf",
+        "imageId":"",
+        "name":"1080-1920 (6).jpg",
+        "bucket":"dia-pro",
+        "object":"8a31fec63f28ce235a66cb23e0329fe4"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"d46bc0a5-83cf-441a-ba2b-dcce1fbf6250",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE_VERTICAL":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900796,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/8895f5f30d41d66983fd48134299350a",
+        "signature":"bc73bf9b81b0d7385f1789db522ddc87",
+        "imageId":"",
+        "name":"1080-1920 (5).jpg",
+        "bucket":"dia-pro",
+        "object":"8895f5f30d41d66983fd48134299350a"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"f738ee69-1dd1-4a86-9fc5-d5983a3ee43b",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE_VERTICAL":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900794,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/7f6816c16a94bf3670357c5fc386c215",
+        "signature":"b67eeb619948af7f4488f462551b011f",
+        "imageId":"",
+        "name":"1080-1920 (9).jpg",
+        "bucket":"dia-pro",
+        "object":"7f6816c16a94bf3670357c5fc386c215"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"364574e0-3304-4257-befe-d126c3e9a959",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE_VERTICAL":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900789,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/fef663b89544faa403767499b5bbcbd4",
+        "signature":"2fd524141a20a5fe34184a03f4779fd7",
+        "imageId":"",
+        "name":"1080-1920 (11).jpg",
+        "bucket":"dia-pro",
+        "object":"fef663b89544faa403767499b5bbcbd4"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"42aca232-9644-43d0-902a-22346db9d9b7",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE_VERTICAL":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900787,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/6c270cce6ee096f37e59869a8000fb83",
+        "signature":"519d85178a3f4752979726c773cfc0d5",
+        "imageId":"",
+        "name":"1080-1920 (19).jpg",
+        "bucket":"dia-pro",
+        "object":"6c270cce6ee096f37e59869a8000fb83"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"b6efc603-eeb9-4b6f-b20f-e3e6fbe82fd0",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE_VERTICAL":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900783,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/f6bb9e83de5f03ded6df94d7bfeb0c1b",
+        "signature":"1b9604ea8cc988f1a90e795eec63b2ba",
+        "imageId":"",
+        "name":"1080-1920 (18).jpg",
+        "bucket":"dia-pro",
+        "object":"f6bb9e83de5f03ded6df94d7bfeb0c1b"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"fd8edfcf-25b4-4161-b3c5-f4dd44843aab",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE_VERTICAL":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900782,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/a73bd498d4530484281f77b55af8d4ea",
+        "signature":"b423b28be30cfa598699bda167c26bd7",
+        "imageId":"",
+        "name":"1080-1920 (12).jpg",
+        "bucket":"dia-pro",
+        "object":"a73bd498d4530484281f77b55af8d4ea"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  },
+  {
+    "materialUuid":"0587dfd5-d66a-436c-9680-686d200e3dfa",
+    "advertiserId":1689033030309902,
+    "imageMode":{
+      "CREATIVE_IMAGE_MODE_LARGE_VERTICAL":{
+
+      }
+    },
+    "images":[
+      {
+        "materialId":900781,
+        "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/57fe16252a4724fa19fe28105464a036",
+        "signature":"af5f5178d9dd637c956e8124c6157147",
+        "imageId":"",
+        "name":"1080-1920 (16).jpg",
+        "bucket":"dia-pro",
+        "object":"57fe16252a4724fa19fe28105464a036"
+      }
+    ],
+    "successImages":[
+
+    ],
+    "image":{
+      "materialId":0,
+      "url":"",
+      "signature":"",
+      "imageId":"",
+      "name":"",
+      "bucket":"",
+      "object":""
+    },
+    "video":{
+      "materialId":0,
+      "url":"https://dia-pro.obs.cn-south-1.myhuaweicloud.com/",
+      "signature":"",
+      "imageId":"",
+      "name":".mp4",
+      "bucket":"",
+      "object":""
+    },
+    "imageStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "videoStatus":{
+      "BATCH_PUT_NORMAL_STATUS":{
+
+      }
+    },
+    "imagesStatus":{
+      "BATCH_PUT_NEW_STATUS":{
+
+      }
+    },
+    "errorMsg":""
+  }
+]

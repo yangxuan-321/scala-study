@@ -16,6 +16,13 @@ trait Monoid[A] {
   def zero: A
 }
 
+trait Foldable[F[_]] {
+  def foldRight[A, B](as: F[A])(z: B)(f: (A, B) => B): B
+  def foldLeft[A, B](as: F[A])(z: B)(f: (B, A) => B): B
+  def foldMap[A, B](as: F[A])(f: A => B)(m: Monoid[B]): B
+  def concatenate[A](as: F[A])(m: Monoid[A]): A = foldLeft(as)(m.zero)(m.op)
+}
+
 object C10 {
   def main(args: Array[String]): Unit = {
     val stringMonoid = new Monoid[String] {
@@ -119,5 +126,9 @@ object C10 {
     val sort1 = foldMap(List(1, 2, 3, 5), isSortMonoid)((a: Int) => Some(a, true)).fold(true)(_._2)
     println(sort1)
 
+    // 实现Foldable[List]
+    new Foldable[List] {
+      override def foldRight[A, B](as: List[A])(z: B)(f: (A, B) => B): B
+    }
   }
 }

@@ -1,5 +1,7 @@
 package org.moda.scala函数式编程.monoid
 
+import scala.annotation.tailrec
+
 
 /**
  * Monoid
@@ -61,6 +63,61 @@ object C10 {
         override def zero: A => A = (a: A) => a
       }
 
-    
+    /**
+     * 那么monoid是什么？简单来说是一个类型A和一个实现法则Monoid[A]。简短说，一个monoid是一个类型，一个此类型的二元操作(满足结合律)和
+     * 一个单位元元素(zero)。
+     */
+
+    // 测试stringMonoid
+    val words = List("Hic", "Est", "Index")
+    words.foldLeft(stringMonoid.zero)(stringMonoid.op)
+    words.foldRight(stringMonoid.zero)(stringMonoid.op)
+
+    /**
+     * 在使用monoid折叠时foldLeft和foldRight的效果是一样的。这正是因为结合律和同一律法则。左折叠就像左关联操作，右折叠和右关联操作类似，
+     * 而identity元素可以在任意一边。
+     */
+    // 可以编写一个通用的concatenate函数，使用monoid去折叠列表：
+    def concatenate[A](as: List[A], m: Monoid[A]): A = as.foldLeft(m.zero)(m.op)
+
+    // 加入列表中的元素不是Monoid实例，该怎么办？不过总是可以将列表map成另外的类型
+    def foldMap[A, B](as: List[A], m: Monoid[B])(f: A => B): B = concatenate(as.map(f), m)
+
+    // f.curried 可以将函数柯西化 (A, B) => B ~> (A)(B) => B
+    def func[A, B, C](a: A, b: B, f: (A, B) => C): C = f.curried(a)(b)
+
+    // @tailrec
+    // 注意此处不是尾递归
+    def foldMapV[A, B](v: IndexedSeq[A], m: Monoid[B])(f: A => B): B = {
+      if (v.size == 0) m.zero
+      if (v.size == 1) f(v(0))
+      else {
+        val vv = v.splitAt(v.size / 2)
+        m.op(foldMapV(vv._1, m)(f), foldMapV(vv._2, m)(f))
+      }
+    }
+
+    val aaa = foldMapV(IndexedSeq(1, 2, 3), intAddition)((a: Int) => a)
+    val aaa1 = foldMapV(IndexedSeq(1, 2, 3), stringMonoid)((a: Int) => a.toString)
+    println(aaa)
+    println(aaa1)
+
+    // 判断列表是否有序的 Monoid
+    val isSortMonoid = new Monoid[Option[(Int, Boolean)]] {
+      override def op(a1: Option[(Int, Boolean)], a2: Option[(Int, Boolean)]): Option[(Int, Boolean)] = {
+        (a1, a2) match {
+          case (Some((x1, z1)), Some((x2, z2))) => Some(x2, z1 && x1 <= x2)
+          case (Some(v11), _) => a1
+          case (_, Some(v22)) => a2
+          case _ => None
+        }
+      }
+
+      override def zero: Option[(Int, Boolean)] = Option.empty
+    }
+    // 经过测试 同时 支持 foldLeft 和 foldRight 同样都可以，难道这就是 同一律和结合律的魅力？
+    val sort1 = foldMap(List(1, 2, 3, 5), isSortMonoid)((a: Int) => Some(a, true)).fold(true)(_._2)
+    println(sort1)
+
   }
 }

@@ -192,5 +192,22 @@ object C10 {
     val m2: Map[String, Map[String, Int]] = Map("a" -> Map("ax" -> 1), "b" -> Map("bx" -> 1), "c" -> Map("cx" -> 5))
     val cxx = mm.op(m1, m2)
     println(cxx)
+
+    // 为返回 monoid的函数 编写 monoid 实例
+    def functionMonoid[A, B](b: Monoid[B]): Monoid[A => B] = new Monoid[A => B] {
+      override def op(a1: A => B, a2: A => B): A => B =
+        (a: A) => b.op(a1(a), a2(a))
+      override def zero: A => B =
+        (a: A) => b.zero
+    }
+
+    def bag[A](as: IndexedSeq[A]): Map[A, Int] = {
+      val am: Monoid[Map[A, Int]] = mapMergeMonoid[A, Int](intAddition)
+      as.foldLeft(Map[A, Int]()) {
+        (r, l) => am.op(r, Map(l -> 1))
+      }
+    }
+
+    println(bag(IndexedSeq(1, 1, 2, 3, 3)))
   }
 }

@@ -209,5 +209,10 @@ object C10 {
     }
 
     println(bag(IndexedSeq(1, 1, 2, 3, 3)))
+
+    val mmx: Monoid[(Int, Int)] = productMonoid(intAddition, intAddition)
+    val p = List(1, 2, 3, 4).foldLeft(mmx.zero)((r, x) => mmx.op(r, (1, x)))
+    val avg = p._2 * 1.0 / p._1
+    println(avg)
   }
 }

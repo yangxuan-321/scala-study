@@ -184,5 +184,13 @@ object C10 {
         }
         override def zero: Map[K, V] = Map[K, V]()
       }
+
+    val mm: Monoid[Map[String, Map[String, Int]]] =
+      mapMergeMonoid(mapMergeMonoid(intAddition))
+
+    val m1: Map[String, Map[String, Int]] = Map("a" -> Map("ax" -> 1), "b" -> Map(), "c" -> Map("cx" -> 1))
+    val m2: Map[String, Map[String, Int]] = Map("a" -> Map("ax" -> 1), "b" -> Map("bx" -> 1), "c" -> Map("cx" -> 5))
+    val cxx = mm.op(m1, m2)
+    println(cxx)
   }
 }

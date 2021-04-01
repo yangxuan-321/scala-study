@@ -128,7 +128,61 @@ object C10 {
 
     // 实现Foldable[List]
     new Foldable[List] {
-      override def foldRight[A, B](as: List[A])(z: B)(f: (A, B) => B): B
+      override def foldRight[A, B](as: List[A])(z: B)(f: (A, B) => B): B =
+        as.foldRight(z)(f)
+
+      override def foldLeft[A, B](as: List[A])(z: B)(f: (B, A) => B): B =
+        as.foldLeft(z)(f)
+
+      override def foldMap[A, B](as: List[A])(f: A => B)(m: Monoid[B]): B =
+        as.map(f).foldLeft(m.zero)(m.op)
+
+      override def concatenate[A](as: List[A])(m: Monoid[A]): A =
+        as.foldLeft(m.zero)(m.op)
     }
+
+    new Foldable[Option] {
+      override def foldLeft[A, B](as: Option[A])(z: B)(f: (B, A) => B): B =
+        as match {
+          case None => z
+          case Some(value) => f(z, value)
+        }
+
+      override def foldRight[A, B](as: Option[A])(z: B)(f: (A, B) => B): B =
+        as match {
+          case None => z
+          case Some(value) => f(value, z)
+        }
+
+      override def foldMap[A, B](as: Option[A])(f: A => B)(m: Monoid[B]): B =
+        as match {
+          case None => m.zero
+          case Some(value) => m.op(f(value), m.zero)
+        }
+
+      override def concatenate[A](as: Option[A])(m: Monoid[A]): A =
+        as match {
+          case None => m.zero
+          case Some(value) => m.op(value, m.zero)
+        }
+    }
+
+    def productMonoid[A, B](a: Monoid[A], b: Monoid[B]): Monoid[(A, B)] =
+      new Monoid[(A, B)] {
+        override def op(a1: (A, B), a2: (A, B)): (A, B) =
+          (a.op(a1._1, a2._1), b.op(a1._2, a2._2))
+        override def zero: (A, B) = (a.zero, b.zero)
+      }
+
+    def mapMergeMonoid[K, V](v: Monoid[V]): Monoid[Map[K, V]] =
+      new Monoid[Map[K, V]] {
+        override def op(a1: Map[K, V], a2: Map[K, V]): Map[K, V] = {
+          // a1.keySet ++ a2.keySet 合并之后 也是去重的
+          (a1.keySet ++ a2.keySet).foldLeft(zero){
+            (r, k) => r.updated(k, v.op(a1.getOrElse(k, v.zero), a2.getOrElse(k, v.zero)))
+          }
+        }
+        override def zero: Map[K, V] = Map[K, V]()
+      }
   }
 }

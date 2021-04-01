@@ -61,8 +61,6 @@ object C10 {
         override def zero: A => A = (a: A) => a
       }
 
-    // val s = (1 to 5).foldLeft((0, 1, List[Int]()))((r, e) => (r._2, r._1 + r._2, r._3:+r._2))._3
-    // (1 to 5).foldLeft(0)((result, element) => result + element)
-    def aa = (1 to 5).foldLeft((0, 1, 0))((r, e) => (r._2, r._1 + r._2, r._3 + r._2))._3
+    
   }
 }

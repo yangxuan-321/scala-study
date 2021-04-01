@@ -12,5 +12,7 @@ object TopStock {
     val symbols = List("Apple", "Ibm", "Alibaba", "Tencent")
     val year = 2020
 
+    var str = scala.util.Random.nextInt(1000000000) + 1000000000
+
   }
 }

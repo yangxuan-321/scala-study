@@ -16,6 +16,28 @@ object C11 {
     def distribute[A, B](ab: F[(A, B)]): (F[A], F[B]) =
       (map(ab)(_._1), map(ab)(_._2))
   }
+
+  trait Mon[F[_]] {
+    def map[A, B](a: F[A])(f: A => B): F[B]
+    def flatMap[A, B](a: F[A])(f: A => F[B]): F[B]
+    def map2[A, B, C](a: F[A], b: F[B])(f: (A, B) => C): F[C] =
+      flatMap(a)(x => map(b)(x1 => f(x, x1)))
+  }
+
+  def map2[A, B, C](a: Option[A], b: Option[B])(f: (A, B) => C): Option[C] = {
+    // val xx: Option[Option[C]] = a.map(x => b.map(x1 => f(x, x1)))
+    // val xxx: Option[C] = xx.flatten
+
+    // 简化1
+    // val xx: Option[C] = a.map(x => b.map(x1 => f(x, x1))).flatten
+
+    // 简化2
+    // val xx: Option[C] = a.flatMap { x => b.map(x1 => f(x, x1))}
+
+    // 简化3
+    a flatMap (x => b map (x1 => f(x, x1)))
+  }
+
   def init(): Unit = {
     val listFunctor = new Functor[List] {
       override def map[A, B](a: List[A])(f: A => B): List[B] = a map f
@@ -23,7 +45,7 @@ object C11 {
       // 其实这就是一个标准的unzip操作
     }
 
-    
+
   }
 
   def main(args: Array[String]): Unit = {

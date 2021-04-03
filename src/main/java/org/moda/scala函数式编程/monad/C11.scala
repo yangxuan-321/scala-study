@@ -70,9 +70,20 @@ object C11 {
       // 对于list的distribute 就是 List[(A, B)] => (List[A], List[B])
       // 其实这就是一个标准的unzip操作
     }
+
+    // 对list 实现 Monad
+    val listMonad = new Monad[List] {
+      override def unit[A](a: A): List[A] = List(a)
+
+      override def flatMap[A, B](a: List[A])(f: A => List[B]): List[B] =
+        a.flatMap(f)
+    }
+
+    val xx: Seq[Int] = listMonad.map(List(1, 2, 3))(_ + 1)
+    println(xx)
   }
 
   def main(args: Array[String]): Unit = {
-
+    init()
   }
 }

@@ -68,6 +68,16 @@ object C11 {
       lma.foldRight(unit(List[A]()))((l, r) => map2(l ,r)((lx, rx) => lx :: rx))
     def traverse[A, B](la: List[A])(f: A => F[B]): F[List[B]] =
       la.foldRight(unit(List[B]()))((l, r) => map2(f(l), r)(_ :: _))
+    def replicateM[A](n: Int, ma: F[A]): F[List[A]] =
+      sequence(List.fill(n)(ma))
+    def filterM[A](ms: List[A])(f: A => F[Boolean]): F[List[A]] =
+      ms match {
+        case head :: tail => flatMap(f(head))(b => {
+          if (!b) filterM(tail)(f)
+          else map(filterM(tail)(f))(head :: _)
+        })
+        case Nil => unit(Nil)
+      }
   }
 
   def init(): Unit = {

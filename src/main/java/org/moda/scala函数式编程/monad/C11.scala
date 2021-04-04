@@ -1,5 +1,7 @@
 package org.moda.scala函数式编程.monad
 
+import org.moda.scala函数式编程.C6_Common.State
+
 object C11 {
   /**
    * 我们在每个案例中都编写了 少许的原语，然后使用这些原语来定义组合子。这些组合子的相似性是值得注意的
@@ -62,6 +64,10 @@ object C11 {
       flatMap(a)((a: A) => unit(f(a)))
     def map2[A, B, C](a: F[A], b: F[B])(f: (A, B) => C): F[C] =
       flatMap(a){ (ax: A) => map(b)((bx: B) => f(ax, bx)) }
+    def sequence[A](lma: List[F[A]]): F[List[A]] =
+      lma.foldRight(unit(List[A]()))((l, r) => map2(l ,r)((lx, rx) => lx :: rx))
+    def traverse[A, B](la: List[A])(f: A => F[B]): F[List[B]] =
+      la.foldRight(unit(List[B]()))((l, r) => map2(f(l), r)(_ :: _))
   }
 
   def init(): Unit = {
@@ -76,12 +82,41 @@ object C11 {
       override def unit[A](a: A): List[A] = List(a)
 
       override def flatMap[A, B](a: List[A])(f: A => List[B]): List[B] =
-        a.flatMap(f)
+        a.flatMap(f) // 或者使用 尾递归实现
     }
 
     val xx: Seq[Int] = listMonad.map(List(1, 2, 3))(_ + 1)
     println(xx)
+
+    // 实现Option的Monad
+    val optionMonad = new Monad[Option] {
+      override def unit[A](a: A): Option[A] = Option(a)
+      override def flatMap[A, B](a: Option[A])(f: A => Option[B]): Option[B] = a match {
+        case None => None
+        case Some(value) => f(value)
+      }
+    }
+    println(Option(1).map(_ + 1))
+
+    val streamMonad = new Monad[Stream] {
+      override def unit[A](a: A): Stream[A] = Stream(a)
+      override def flatMap[A, B](a: Stream[A])(f: A => Stream[B]): Stream[B] =
+        a flatMap f
+    }
+
   }
+
+  // 实现State的Monad
+//  class StateMonadS[S] {
+//    type StateS[A] = State[S, A]
+//
+//    new Monad[StateS] {
+//      def unit[A](a: => A): State[S, A] = s => (a, s)
+//
+//      override def flatMap[A, B](a: State[S, A])(f: A => State[S, B]): State[S, B] =
+//        a flatMap f
+//    }
+//  }
 
   def main(args: Array[String]): Unit = {
     init()

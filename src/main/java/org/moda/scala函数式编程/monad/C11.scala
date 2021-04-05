@@ -80,6 +80,10 @@ object C11 {
       }
     def compose[A, B, C](f: A => F[B], g: B => F[C]): A => F[C] =
       (a: A) => flatMap(f(a))(g)
+    // 我们也可以通过 compose 实现 flatMap
+    def flatMap1[A, B](a: F[A])(f: A => F[B]): F[B] =
+      compose((_:Unit) => a, f)(())
+
   }
 
   def init(): Unit = {

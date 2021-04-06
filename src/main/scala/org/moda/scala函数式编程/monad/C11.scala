@@ -195,6 +195,12 @@ object C11 {
   }
 
   def main(args: Array[String]): Unit = {
-    stateMonadS
+    // stateMonadS
+    val a = List(1, 2, 3)
+    val b = List(11, 22, 33)
+    val cc = for {
+      aa <- a
+      bb <- b
+    } yield (aa, bb)
   }
 }

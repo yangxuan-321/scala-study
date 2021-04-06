@@ -2,6 +2,10 @@ package org.moda.fp.applicative
 
 import org.moda.fp.monad.C11.Functor
 
+/**
+ * 使用 map2 和 unit 作为原语 进行推导
+ * @tparam F
+ */
 trait Applicative[F[_]] extends Functor[F] {
   // 以下 是两个原语
   def map2[A, B, C](fa: F[A], fb: F[B])(f: (A, B) => C): F[C]
@@ -21,6 +25,26 @@ trait Applicative[F[_]] extends Functor[F] {
 
   def product[A, B](fa: F[A], fb: F[B]): F[(A, B)] =
     map2(fa, fb)((a, b) => (a, b))
+}
+
+/**
+ * 使用 apply 和 unit 作为原语
+ * @tparam F
+ */
+trait Applicative1[F[_]] extends Functor[F] {
+  // 使用 map2 和 unit 实现 apply 函数
+  def apply[A, B](fab: F[A => B])(fa: F[A]): F[B]
+
+  def unit[A](a: => A): F[A]
+  // 使用 unit 和 apply 实现 map
+  def map[A, B](fa: F[A])(f: A => B): F[B] =
+    apply(unit(f))(fa)
+  // 使用 unit 和 apply 实现 map2
+  def map2[A, B, C](fa: F[A], fb: F[B])(f: (A, B) => C) = {
+    // val value: F[B => C] = apply(unit(f.curried))(fa)
+    // apply(value)(fb)
+    apply(map(fa)(f.curried))(fb)
+  }
 }
 
 object C12 {

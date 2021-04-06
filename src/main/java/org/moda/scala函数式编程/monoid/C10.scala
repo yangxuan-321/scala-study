@@ -1,6 +1,6 @@
 package org.moda.scala函数式编程.monoid
 
-import scala.annotation.tailrec
+import org.moda.scala函数式编程.monad.C11.Monad
 
 
 /**

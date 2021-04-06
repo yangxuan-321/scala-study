@@ -1,6 +1,26 @@
 package org.moda.scala函数式编程.monad
 
-import org.moda.scala函数式编程.C6_Common.State
+case class Id[A] (value: A) {
+  def map[B](f: A => B): Id[B] =
+    Id(f(value))
+  def flatMap[B](f: A => Id[B]): Id[B] =
+    f(value)
+}
+
+case class State[S, A](run: S => (A, S)) {
+  def map[B](f: A => B): State[S, B] = {
+    State((s: S) => {
+      val (a, s1) = run(s)
+      (f(a), s1)
+    })
+  }
+
+  def flatMap[B](f: A => State[S, B]): State[S, B] =
+    State((s: S) => {
+      val (a, s1) = run(s)
+      f(a).run(s1)
+    })
+}
 
 object C11 {
   /**
@@ -135,7 +155,46 @@ object C11 {
 //    }
 //  }
 
+  def idMonad = {
+    val idMonad1 = new Monad[Id] {
+      override def unit[A](a: A): Id[A] = Id(a)
+      override def flatMap[A, B](a: Id[A])(f: A => Id[B]): Id[B] = a flatMap f
+    }
+
+    // val v: Id[String] = idMonad1.map(Id("hello "))(_ + "world!")
+    val v: Id[String] = for {
+      a <- Id("hello ")
+      b <- Id("world!")
+    } yield a + b
+    println(v)
+  }
+
+  def stateMonadS(): Unit = {
+    // new Monad[({type IntState[A] = State[Int, A]})#IntState] {
+    //   override def unit[A](a: A): State[Int, A] =
+    // }
+    def stateMonad[S] =
+      new Monad[({type lambda[X] = State[S, X]})#lambda] {
+        override def unit[A](a: A): State[S, A] = State(s => (a, s))
+        override def flatMap[A, B](a: State[S, A])(f: A => State[S, B]): State[S, B] = a flatMap f
+      }
+
+    def getState[S]: State[S, S] = State(s => (s,s))
+    def setState[S](s: => S): State[S, Unit] = State(_ => ((),s))
+
+    val vv: State[Int, Int] = stateMonad.unit(11)
+    println(vv.run(22))
+
+    val F = stateMonad[Int]
+    def zipWithIndex[A](as: List[A]): List[(Int, A)] =
+      as.foldLeft(F.unit(List[(Int, A)]()))((acc, a) => for {
+        xs <- acc
+        n <- getState
+        _ <- setState(n + 1)
+      } yield (n, a) :: xs).run(0)._1.reverse
+  }
+
   def main(args: Array[String]): Unit = {
-    init()
+    stateMonadS
   }
 }

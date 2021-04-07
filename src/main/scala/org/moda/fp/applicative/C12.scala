@@ -54,6 +54,13 @@ trait Applicative1[F[_]] extends Functor[F] {
     apply(apply(apply(apply(unit(f.curried))(fa))(fb))(fc))(fd)
 }
 
+trait Monad1[F[_]] extends Applicative1[F] {
+  def flatMap[A, B](fa: F[A])(f: A => F[B]): F[B] = join(map(fa)(f))
+  def join[A](ffa: F[F[A]]): F[A] = flatMap(ffa)(x => x)
+  def compose[A, B, C](f: A => F[B], g: B => F[C]): A => F[C]
+  override def map[A, B](fa: F[A])(f: A => B): F[B] = flatMap(fa)(x => unit(f(x)))
+}
+
 object C12 {
   def func1(): Unit = {
 
